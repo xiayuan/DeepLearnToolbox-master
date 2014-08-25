@@ -45,3 +45,4 @@ end
 % net.layers{l - 1}.a{1}是一个3维矩阵， 最后一维是样本数
 % net.layers{l}.d{j} 是一个3维矩阵   比如 d(:,:,1)=[m*n]， d(:,:,2)=[m*n],
 % d(:,:,k)=[m*n], 则d为一个 m*n*k 的3维矩阵   length(size(d))=3
+% d(:,:,k)=[m*n], 则d为一个 m*n*k 的3维矩阵   length(size(d))=3
